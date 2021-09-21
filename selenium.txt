@@ -1,0 +1,2 @@
+selenium Grid:It id used To run WebDriver Script on Different Remote Machine By Sending Routing Commands Send By Client To Remote Browser Instanace
+
