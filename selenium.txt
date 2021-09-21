@@ -1,2 +1,20 @@
 selenium Grid:It id used To run WebDriver Script on Different Remote Machine By Sending Routing Commands Send By Client To Remote Browser Instanace
 
+Selenium Three Types Pf Commands
+
+1]Actions
+ We Perform Action On Web Elements Like Link Click or Fill Text Box If Invalid State is Produced Then Cuurent Script Execution Will Stop
+ open(url)
+ close()
+ click()
+ 
+ 2]Accessors:
+ 
+  It Will Access Result and Stored In variables
+  
+  storeTitle(variable_name)
+  
+ 3]Assertions
+   It Will help To verify The State Of Application
+  
+  
