@@ -21,7 +21,7 @@ public class Selenium1 {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
-		
+		//GOOGLE SEARCH AUTOMATION
 		 //set System Path  and Key variables For WebDriver  
 		String path= "C:\\Users\\Prathamesh\\Desktop\\Testing\\chromedriver.exe";
 		String key= "webdriver.chrome.driver";
