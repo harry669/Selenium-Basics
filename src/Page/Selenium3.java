@@ -65,14 +65,21 @@ public class Selenium3 {
 			    //WebElement TrackItem = driver.findElement(By.id("edit-track-number"));
 			    
 			    //Locate Element By Multiple Attribute
-			    WebElement TrackItem = driver.findElement(By.cssSelector("input[class='label-hidden form-text required']"));
+			    //WebElement TrackItem = driver.findElement(By.cssSelector("input[class='label-hidden form-text required']"));
+			    
+			    //Locate Element By SubString - contains
+			   // WebElement TrackItem= driver.findElement(By.cssSelector("input[name*='track_']"));
+			    
+			    //Locate Element By SubString - Starts With
+			    
+			    WebElement TrackItem= driver.findElement(By.cssSelector("input[name^='track_']"));
 			    
 			    //input invalid Track No
 			    TrackItem.sendKeys("asasasasas");
 			    
 			    WebElement SearchTrackItem= driver.findElement(By.id("edit-submit"));
 			    
-			    SearchTrackItem.click();
+			   // SearchTrackItem.click();
 			    
 			    //System.out.println(Ul);
 			    
