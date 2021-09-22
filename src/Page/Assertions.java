@@ -10,7 +10,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 public class Assertions {
 
 	
-	String driverpath;
+	 String driverpath;
 	 String driverkey;
 	
 	public Assertions(String driverpath,String driverkey)
